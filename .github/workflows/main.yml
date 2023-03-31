@@ -5,7 +5,7 @@ on:
     - cron:  '49 9 9 * *'
   push:
     branches:
-      - 'main'
+      - 'master'
 
 jobs:
   docker:
